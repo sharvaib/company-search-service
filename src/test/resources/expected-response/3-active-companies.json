@@ -1,0 +1,112 @@
+{
+  "total_results": 3,
+  "items": [
+    {
+      "company_number": "06500244",
+      "company_type": "ltd",
+      "title": "BBC LIMITED",
+      "company_status": "active",
+      "date_of_creation": "2008-12-31",
+      "address": {
+        "premises": "Boswell Cottage Main Street",
+        "locality": "Retford",
+        "country": "England",
+        "postal_code": "DN22 0AD",
+        "address_line_1": "North Leverton"
+      },
+      "officers": [
+        {
+          "name": "BOXALL, Sarah Victoria",
+          "officer_role": "secretary",
+          "appointed_on": "2008-12-31",
+          "address": {
+            "premises": "5",
+            "locality": "London",
+            "country": "England",
+            "postal_code": "SW20 0DP",
+            "address_line_1": "Cranford Close"
+          }
+        },
+        {
+          "name": "BRAY, Simon Anton",
+          "officer_role": "director",
+          "appointed_on": "2008-12-31",
+          "address": {
+            "premises": "5",
+            "locality": "London",
+            "country": "England",
+            "postal_code": "SW20 0DP",
+            "address_line_1": "Cranford Close"
+          }
+        }
+      ]
+    },
+    {
+      "company_number": "07520089",
+      "company_type": "ltd",
+      "title": "BBC AND CO LIMITED",
+      "company_status": "active",
+      "date_of_creation": "2011-01-03",
+      "address": {
+        "premises": "Unit 2",
+        "locality": "Lostwithiel",
+        "postal_code": "PL22 0HG",
+        "address_line_1": "Restormel Estate"
+      },
+      "officers": [
+        {
+          "name": "BATE, Philip Henry",
+          "officer_role": "director",
+          "appointed_on": "2011-01-03",
+          "address": {
+            "premises": "Unit 2",
+            "locality": "Lostwithiel",
+            "country": "United Kingdom",
+            "postal_code": "PL22 0HG",
+            "address_line_1": "Restormel Estate"
+          }
+        }
+      ]
+    },
+    {
+      "company_number": "09670032",
+      "company_type": "ltd",
+      "title": "BBC AESTHETICS LIMITED",
+      "company_status": "active",
+      "date_of_creation": "2015-12-29",
+      "address": {
+        "premises": "Suite 4",
+        "locality": "Liverpool",
+        "country": "England",
+        "postal_code": "L3 9NG",
+        "address_line_1": "Second Floor Honeycomb"
+      },
+      "officers": [
+        {
+          "name": "BOXALL, Sarah Victoria",
+          "officer_role": "secretary",
+          "appointed_on": "2008-12-31",
+          "address": {
+            "premises": "5",
+            "locality": "London",
+            "country": "England",
+            "postal_code": "SW20 0DP",
+            "address_line_1": "Cranford Close"
+          }
+        },
+        {
+          "name": "BRAY, Simon Anton",
+          "officer_role": "director",
+          "appointed_on": "2008-12-31",
+          "address": {
+            "premises": "5",
+            "locality": "London",
+            "country": "England",
+            "postal_code": "SW20 0DP",
+            "address_line_1": "Cranford Close"
+          }
+        }
+      ]
+    }
+  ]
+}

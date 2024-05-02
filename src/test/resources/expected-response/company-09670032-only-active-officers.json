@@ -1,0 +1,45 @@
+{
+  "total_results": 1,
+  "items": [
+    {
+      "company_number": "09670032",
+      "company_type": "ltd",
+      "title": "BBC AESTHETICS LIMITED",
+      "company_status": "active",
+      "date_of_creation": "2015-12-29",
+      "address": {
+        "premises": "Suite 4",
+        "locality": "Liverpool",
+        "country": "England",
+        "postal_code": "L3 9NG",
+        "address_line_1": "Second Floor Honeycomb"
+      },
+      "officers": [
+        {
+          "name": "BOXALL, Sarah Victoria",
+          "officer_role": "secretary",
+          "appointed_on": "2008-12-31",
+          "address": {
+            "premises": "5",
+            "locality": "London",
+            "country": "England",
+            "postal_code": "SW20 0DP",
+            "address_line_1": "Cranford Close"
+          }
+        },
+        {
+          "name": "BRAY, Simon Anton",
+          "officer_role": "director",
+          "appointed_on": "2008-12-31",
+          "address": {
+            "premises": "5",
+            "locality": "London",
+            "country": "England",
+            "postal_code": "SW20 0DP",
+            "address_line_1": "Cranford Close"
+          }
+        }
+      ]
+    }
+  ]
+}

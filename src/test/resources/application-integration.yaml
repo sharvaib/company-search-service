@@ -1,0 +1,4 @@
+wiremock-config:
+  host: http://localhost
+  name: truproxyapi
+  port: 9081

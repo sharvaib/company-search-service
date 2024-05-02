@@ -1,0 +1,37 @@
+{
+  "page_number": 1,
+  "kind": "search#companies",
+  "total_results": 1,
+  "items": [
+    {
+  "company_status": "active",
+  "address_snippet": "Suite 4 Second Floor Honeycomb, Edmund Street, Liverpool, England, L3 9NG",
+  "date_of_creation": "2015-07-03",
+  "matches": {
+    "title": [
+      1,
+      3
+    ]
+  },
+  "description": "09670032 - Incorporated on  3 July 2015",
+  "links": {
+    "self": "/company/09670032"
+  },
+  "company_number": "09670032",
+  "title": "BBC AESTHETICS LIMITED",
+  "company_type": "ltd",
+  "address": {
+    "premises": "Suite 4",
+    "postal_code": "L3 9NG",
+    "country": "England",
+    "locality": "Liverpool",
+    "address_line_1": "Second Floor Honeycomb",
+    "address_line_2": "Edmund Street"
+  },
+  "kind": "searchresults#company",
+  "description_identifier": [
+    "incorporated-on"
+  ]
+}
+    ]
+    }
