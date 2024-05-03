@@ -6,7 +6,7 @@ The service runs an in memory H2 DB to store data returned from TruProxyAPI for 
 
 ## How to Run
 
-This application is packaged as a war which has Tomcat 8 embedded. No Tomcat or JBoss installation is necessary. You run it using the ```java -jar``` command.
+This application is packaged as a war which has Tomcat embedded.
 
 * Clone this repository
 * You can build the project and run the tests by running ```mvn clean package```
