@@ -33,8 +33,12 @@ The service is just a simple companies search REST service. It uses an in-memory
 It calls TruProxyAPI to retrieve companies and officers information, the information is then stored in "companydb" database and returned to client.
 If a request is sent with company-number, a lookup is done in companydb and if data is found its returned to client without calling TruProxyAPI.
 
-sample request json: 
+Sample Get Endpoint:
+```
+http://localhost:8080/companies/search?OnlyActiveCompanies=false
+```
 
+sample request json:
 ```
 {
     "companyName":"BBC",
