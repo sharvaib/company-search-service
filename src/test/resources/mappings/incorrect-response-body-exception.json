@@ -1,0 +1,22 @@
+{
+  "id" : "0422ef7a-5034-4f7a-afc0-14209d73c85e",
+  "request" : {
+    "url" : "/TruProxyAPI/rest/Companies/v1/search?Query=IncorrectJsonResponse",
+    "method" : "GET",
+    "headers" : {
+      "x-api-key" : {
+        "equalTo": "random-access-key"
+      },
+      "Accept" : {
+        "equalTo" : "application/json, application/*+json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "incorrect-json-response.json",
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  }
+}

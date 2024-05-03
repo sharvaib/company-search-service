@@ -1,11 +1,11 @@
 package com.spring.exercise.companysearchservice.integration;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.WireMockServer;
 import com.spring.exercise.companysearchservice.CompanySearchServiceApplication;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.skyscreamer.jsonassert.JSONCompareMode;
@@ -38,7 +38,7 @@ class CompanySearchServiceApplicationTests {
     private static WireMockServer wireMockServer;
 
     @BeforeAll
-    static void init(@Value("${wiremock-config.host}") String host, @Value("${wiremock-config.port}") int port) {
+    static void init(@Value("${wiremock-config.port}") int port) {
         wireMockServer = new WireMockServer(port);
         wireMockServer.start();
     }
@@ -58,6 +58,17 @@ class CompanySearchServiceApplicationTests {
                 .andExpect(status().isOk()).andReturn().getResponse().getContentAsString();
         JSONAssert.assertEquals(
                 getFileData(expectedResponseFilePath), actualResponse, JSONCompareMode.LENIENT);
+    }
+
+    @Test
+    void searchCompaniesInvalidBackendJsonResponse() throws Exception {
+        mockMvc.perform(get("/companies/search")
+                        .contentType("application/json")
+                        .queryParam("OnlyActiveCompanies", "true")
+                        .header("x-api-key", "random-access-key")
+                        .content(getFileData("__files/request/expect-incorrect-json.json"))
+                )
+                .andExpect(status().isInternalServerError()).andReturn().getResponse().getContentAsString();
     }
 
     private String getFileData(String filePath) throws IOException {
